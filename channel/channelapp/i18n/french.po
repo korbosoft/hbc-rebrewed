@@ -108,13 +108,12 @@ msgid "Date"
 msgstr "Date"
 
 #: source/dialogs.c:87
-#, fuzzy
 msgid "Author"
-msgstr "Auteur : %s"
+msgstr "Auteur"
 
 #: source/dialogs.c:88
 msgid "Size"
-msgstr ""
+msgstr "Taille"
 
 #: source/dialogs.c:127
 msgid "<YourLanguageHere> translation by <YourNickNameHere>"
@@ -137,7 +136,7 @@ msgstr "Auteur : %s"
 #: source/dialogs.c:143
 #, c-format
 msgid "Size: %.2f MB"
-msgstr ""
+msgstr "Taille: %.2f MB"
 
 #: source/loader.c:711
 msgid "Error while reading the application from the SD card"
@@ -206,9 +205,9 @@ msgid "Your Wii's IP is %u.%u.%u.%u"
 msgstr "L'IP de votre Wii est %u.%u.%u.%u"
 
 #: source/m_main.c:86 source/m_main.c:159
-#, fuzzy, c-format
+#, c-format
 msgid "%d applications installed"
-msgstr "Trier les applications par:"
+msgstr "%d applications installées"
 
 # button text
 #: source/m_main.c:102
@@ -237,9 +236,8 @@ msgid "Shutdown"
 msgstr "Arrêt"
 
 #: source/m_main.c:156
-#, fuzzy
 msgid "1 application installed"
-msgstr "Trier les applications par:"
+msgstr "1 application installée "
 
 #: source/main.c:253
 msgid "Do you really want to delete this application?"
@@ -283,7 +281,7 @@ msgstr "Échec du téléchargement"
 #: source/view.c:258
 #, c-format
 msgid "Score: %08d"
-msgstr ""
+msgstr "Score: %08d"
 
 #: source/widgets.c:16
 msgid "<no description>"
