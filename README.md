@@ -14,7 +14,7 @@ New features:
 * Reverted title ID to LULZ for compatibility with BootMii
 * Show new string for when there is only 1 application installed
 * Fixed bugs, warnings and styled code to GNU C23 standard
-* Translated to Spanish
+* Translated to Spanish, French, German, Italian, Dutch and Japanese
 
 ## Screenshots
 <img width="640" height="480" alt="LULZHB_2025-08-03_17-28-38" src="https://github.com/user-attachments/assets/cf11d785-ddb3-46ac-adcc-15d4f18033f2" />
