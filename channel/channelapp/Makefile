@@ -244,4 +244,5 @@ test:
 	dolphin.exe --debugger --logger --audio_emulation=LLE --exec=$(TARGET_CHAN).elf
 
 checks:
-	cppcheck source/ --enable=all --verbose --suppress=missingIncludeSystem --suppress=unusedFunction
+	cppcheck source/ --enable=all --verbose --suppress=missingIncludeSystem --suppress=unusedFunction \
+		--cppcheck-build-dir=cppcheck/ --platform=cppcheck/wii.cfg --error-exitcode=1
