@@ -8,7 +8,8 @@
                 "${DEVKITPPC}/powerpc-eabi/include/**",
                 "${DEVKITPRO}/portlibs/ppc/include",
                 "${DEVKITPRO}/libogc/include/ogc/**",
-                "${workspaceFolder}/channel/channelapp/source/**"
+                "${workspaceFolder}/channel/channelapp/source/**",
+                "${workspaceFolder}/channel/channelapp/build/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -32,7 +33,8 @@
                 "${DEVKITPRO_HOME}/devkitPPC/powerpc-eabi/include/**",
                 "${DEVKITPRO_HOME}/portlibs/ppc/include",
                 "${DEVKITPRO_HOME}/libogc/include/ogc/**",
-                "${workspaceFolder}/channel/channelapp/source/**"
+                "${workspaceFolder}/channel/channelapp/source/**",
+                "${workspaceFolder}/channel/channelapp/build/**"
             ],
             "defines": [
                 "_DEBUG",

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: homebrew_channel\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-01 13:40+0200\n"
+"POT-Creation-Date: 2025-10-13 21:36+0200\n"
 "PO-Revision-Date: 2011-01-10 05:53+0200\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: \n"
@@ -67,7 +67,7 @@ msgid "Load"
 msgstr "起動"
 
 #  button text
-#: source/dialogs.c:77 source/m_main.c:100
+#: source/dialogs.c:77 source/m_main.c:99
 msgid "Back"
 msgstr "戻る"
 
@@ -138,46 +138,46 @@ msgstr "作者: %s"
 msgid "Size: %.2f MB"
 msgstr "サイズ: %.2f MB"
 
-#: source/loader.c:711
+#: source/loader.c:710
 msgid "Error while reading the application from the SD card"
 msgstr "アプリケーションをSDカードから読み込んでいる最中エラーが発生しました。"
 
-#: source/loader.c:712
+#: source/loader.c:711
 msgid "Error while receiving the application"
 msgstr "アプリケーションを受信している最中エラーが発生しました。"
 
-#: source/loader.c:713
+#: source/loader.c:712
 msgid "Error uncompressing the received data"
 msgstr "受信されたデータを解凍中エラーが発生しました。"
 
-#: source/loader.c:714
+#: source/loader.c:713
 msgid "This is not a valid Wii application"
 msgstr "これは妥当なWiiアプリケーションではありません。"
 
-#: source/loader.c:715
+#: source/loader.c:714
 msgid "This is not a usable ZIP file"
 msgstr "これは妥当なZIPファイルではありません。"
 
-#: source/loader.c:716
+#: source/loader.c:715
 msgid "Not enough memory"
 msgstr "メモリーが足りません。"
 
-#: source/loader.c:758
+#: source/loader.c:757
 #, c-format
 msgid "Loading %s"
 msgstr "%sをロード中。"
 
-#: source/loader.c:767
+#: source/loader.c:766
 #, c-format
 msgid "Receiving over USBGecko"
 msgstr "USBGecko経由で受信中。"
 
-#: source/loader.c:777
+#: source/loader.c:776
 #, c-format
 msgid "Receiving from %s"
 msgstr "%sから受信中。"
 
-#: source/loader.c:963
+#: source/loader.c:962
 #, c-format
 msgid ""
 "Extract the received ZIP file?\n"
@@ -186,69 +186,69 @@ msgstr ""
 "受信されたZIPファイルを解凍しますか。\n"
 "%sの空き領域が必要になります。"
 
-#: source/loader.c:964
+#: source/loader.c:963
 #, c-format
 msgid "WARNING: Files in '%s' will be overwritten"
 msgstr "警告: 「%s」の中のファイルはすべて上書きされます。"
 
-#: source/loader.c:965
+#: source/loader.c:964
 msgid "Error while extracting the ZIP file"
 msgstr "ZIPファイルを解凍中エラーが発生しました。"
 
-#: source/m_main.c:84
+#: source/m_main.c:83
 msgid "Network not initialized"
 msgstr "ネットワークが初期化されていません。"
 
-#: source/m_main.c:85
+#: source/m_main.c:84
 #, c-format
 msgid "Your Wii's IP is %u.%u.%u.%u"
 msgstr "このWiiのIPアドレスは %u.%u.%u.%u"
 
-#: source/m_main.c:86 source/m_main.c:159
-#, fuzzy, c-format
+#: source/m_main.c:85 source/m_main.c:158
+#, c-format
 msgid "%d applications installed"
 msgstr "%d つのアプリがインストール済み"
 
 # button text
-#: source/m_main.c:102
+#: source/m_main.c:101
 msgid "About"
 msgstr "このアプリケーションについて"
 
-#: source/m_main.c:107
+#: source/m_main.c:106
 msgid "Launch BootMii"
 msgstr "BootMiiを起動"
 
-#: source/m_main.c:113
+#: source/m_main.c:112
 #, fuzzy
 msgid "Exit to vWii System Menu"
 msgstr "システムメニューへ戻る"
 
-#: source/m_main.c:117
+#: source/m_main.c:116
 msgid "Reboot to Wii U Menu"
 msgstr ""
 
-#: source/m_main.c:120
+#: source/m_main.c:119
 msgid "Exit to System Menu"
 msgstr "システムメニューへ戻る"
 
-#: source/m_main.c:124
+#: source/m_main.c:123
 msgid "Shutdown"
 msgstr "シャットダウン"
 
-#: source/m_main.c:156
+#: source/m_main.c:155
 msgid "1 application installed"
 msgstr "1つのアプリがインストール済み"
 
-#: source/main.c:253
+#: source/main.c:261
 msgid "Do you really want to delete this application?"
 msgstr "本当にこのアプリケーションを削除しますか。"
 
-#: source/main.c:254
+#: source/main.c:262
 #, c-format
 msgid "Error deleting '%s'"
 msgstr "「%s」を削除中にエラーが発生しました。"
 
-#: source/manage.c:527
+#: source/manage.c:524
 msgid "Extracting"
 msgstr "解凍中"
 
@@ -279,11 +279,11 @@ msgstr "更新をダウンロード中 (%u kB)"
 msgid "Download failed"
 msgstr "ダウンロードが失敗しました。"
 
-#: source/view.c:258
+#: source/view.c:261
 #, c-format
 msgid "Score: %08d"
 msgstr "スコア: %08d"
 
-#: source/widgets.c:16
+#: source/widgets.c:17
 msgid "<no description>"
 msgstr "<詳細情報はありません >"

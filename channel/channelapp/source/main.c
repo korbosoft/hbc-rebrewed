@@ -49,6 +49,7 @@
 #include "italian_mo.h"
 #include "japanese_mo.h"
 #include "spanish_mo.h"
+#include "korean_mo.h"
 
 #ifdef DEBUG_APP
 // #define GDBSTUB
@@ -176,6 +177,15 @@ void config_language(void) {
             mo = japanese_mo;
         } else {
             gprintf("language ja disabled due to missing theme support\n");
+            language = CONF_LANG_ENGLISH;
+        }
+        break;
+
+    case CONF_LANG_KOREAN:
+        if (theme.langs & TLANG_KO) mo = korean_mo;
+        else
+        {
+            gprintf("language ko disabled due to missing theme support\n");
             language = CONF_LANG_ENGLISH;
         }
         break;
