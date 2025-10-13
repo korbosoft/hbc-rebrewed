@@ -14,12 +14,12 @@ New features:
 * Reverted title ID to LULZ for compatibility with BootMii
 * Show new string for when there is only 1 application installed
 * Fixed bugs, warnings and styled code to GNU C23 standard
-* Translated to Spanish, French, German, Italian, Dutch and Japanese
+* Translated to Spanish, French, German, Italian, Dutch, Japanese and Korean
 
 ## Screenshots
-<img width="640" height="480" alt="LULZHB_2025-08-03_17-28-38" src="https://github.com/user-attachments/assets/cf11d785-ddb3-46ac-adcc-15d4f18033f2" />
-<img width="640" height="480" alt="LULZHB_2025-08-03_17-31-42" src="https://github.com/user-attachments/assets/041bb8cd-a79b-4ecb-b7ed-0b8fb9d79ed8" />
-<img width="640" height="480" alt="LULZHB_2025-08-03_17-32-22" src="https://github.com/user-attachments/assets/6d563667-b9d5-487e-862b-538e4b2b9271" />
+<img width="817" height="480" alt="LULZHB_2025-10-13_22-07-52" src="https://github.com/user-attachments/assets/109d2eb2-90a7-4d40-ab89-46900e099c70" />
+<img width="817" height="480" alt="LULZHB_2025-10-13_22-12-37" src="https://github.com/user-attachments/assets/39213323-89f6-48c7-9f8e-6621f180df51" />
+<img width="817" height="480" alt="LULZHB_2025-10-13_22-12-58" src="https://github.com/user-attachments/assets/4596a8b5-5a26-4d87-bf0e-c7fa1b124aef" />
 
 ## Build instructions
 
@@ -38,7 +38,7 @@ Not included:
 
 Note that the code in this repository differs from the source code used to build
 the fail0verflow's version of The Homebrew Channel, which includes additional
-protection features (i.e. we had to add reverse-DRM to stop scammers from
+protection features (i.e. they had to add reverse-DRM to stop scammers from
 selling it).
 
 This code is released with no warranty.
